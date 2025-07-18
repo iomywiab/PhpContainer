@@ -1,0 +1,9 @@
+# Ignore everything in the directory
+/temp/*
+
+# Except the directory itself
+!/temp/
+
+# Optional: Keep a .gitkeep or similar file to retain the empty directory in Git
+!/temp/.gitkeep
+/_unused/
